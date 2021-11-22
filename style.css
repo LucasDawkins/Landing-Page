@@ -1,0 +1,128 @@
+body {
+  font-family: Robot, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*margin: 0;*/
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  /*height: 48px;*/
+  display: flex;
+  /*align-items: center;*/
+  justify-content: space-around;
+  /*padding: 0 16px;*/
+  font-size: 18px;
+  /*font-weight: 900;*/
+
+  flex-direction: row;
+  background: #1f2937;
+  color: white;
+  /*text-decoration: none;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+    display: flex;
+    color: #e5e7eb;
+    gap: 15px;
+    /*text-decoration: none;*/
+    /*flex-direction: row;*/
+}
+  
+
+.header2-container {
+    /*height: 48px;*/
+    display: flex;
+    align-items: center;
+    /*padding: 0 16px;*/
+    /*font-size: 32px;*/
+    /*font-weight: 900;*/
+  
+    background: #1f2937;
+    color: white;
+    /*text-decoration: none;*/
+}
+
+.title {
+    /* This website is awesome */
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    background: #1f2937;
+}
+
+.footer {
+  /*height: 72px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+  background: #1f2937;
+  color: white;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;  
+  flex: 1;
+  /*padding: 16px;*/
+  /*width: 300px;*/
+  /*background: royalblue;*/
+}
+
+/*.fourimage-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}*/
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;  
+  flex-direction: column;
+  text-align: center;
+  /*flex: 1;*/
+  /*justify-content: center;*/
+}
+
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 150px;
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+}
+
+/* SOLUTION */
+
+/*li {
+  margin-bottom: 16px;
+}*/
+
+a {
+  /*color: white;*/
+  text-decoration: none;
+  /*font-size: 24px;*/
+}
+
+/*.image-container {*/
+/*  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;*/
+/*}*/
